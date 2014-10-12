@@ -1,0 +1,78 @@
+﻿Build started 07/10/2014 19:24:44.
+     1>Project "E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Experimental_SFML.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\SFML-2.1\include" /I./ /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt GameScene1.cpp GraphicsManager.cpp PolygonComponent.cpp
+         GameScene1.cpp
+         GraphicsManager.cpp
+         PolygonComponent.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Release\Experimental_SFML.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\SFML-2.1\lib" /LIBPATH:./lib Box2D.lib "sfml-graphics.lib" "sfml-window.lib" "sfml-system.lib" kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Release\Experimental_SFML.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Release\Experimental_SFML.lib" /MACHINE:X86 /SAFESEH Release\Experimental_SFML.res
+         Release\B2Components.obj
+         Release\b2BroadPhase.obj
+         Release\b2CollideCircle.obj
+         Release\b2CollideEdge.obj
+         Release\b2CollidePolygon.obj
+         Release\b2Collision.obj
+         Release\b2Distance.obj
+         Release\b2DynamicTree.obj
+         Release\b2TimeOfImpact.obj
+         Release\b2ChainShape.obj
+         Release\b2CircleShape.obj
+         Release\b2EdgeShape.obj
+         Release\b2PolygonShape.obj
+         Release\b2BlockAllocator.obj
+         Release\b2Draw.obj
+         Release\b2Math.obj
+         Release\b2Settings.obj
+         Release\b2StackAllocator.obj
+         Release\b2Timer.obj
+         Release\b2Body.obj
+         Release\b2ContactManager.obj
+         Release\b2Fixture.obj
+         Release\b2Island.obj
+         Release\b2World.obj
+         Release\b2WorldCallbacks.obj
+         Release\b2ChainAndCircleContact.obj
+         Release\b2ChainAndPolygonContact.obj
+         Release\b2CircleContact.obj
+         Release\b2Contact.obj
+         Release\b2ContactSolver.obj
+         Release\b2EdgeAndCircleContact.obj
+         Release\b2EdgeAndPolygonContact.obj
+         Release\b2PolygonAndCircleContact.obj
+         Release\b2PolygonContact.obj
+         Release\b2DistanceJoint.obj
+         Release\b2FrictionJoint.obj
+         Release\b2GearJoint.obj
+         Release\b2Joint.obj
+         Release\b2MotorJoint.obj
+         Release\b2MouseJoint.obj
+         Release\b2PrismaticJoint.obj
+         Release\b2PulleyJoint.obj
+         Release\b2RevoluteJoint.obj
+         Release\b2RopeJoint.obj
+         Release\b2WeldJoint.obj
+         Release\b2WheelJoint.obj
+         Release\b2Rope.obj
+         Release\CameraComponent.obj
+         Release\Entity.obj
+         Release\EntityManager.obj
+         Release\GameScene1.obj
+         Release\GraphicsManager.obj
+         Release\IComponent.obj
+         Release\Input.obj
+         Release\main.obj
+         Release\MenuScene.obj
+         Release\PlayerComponent.obj
+         Release\PlayerPref.obj
+         Release\PolygonComponent.obj
+         Release\SceneManager.obj
+         Release\TransformComponent.obj
+         Generating code
+         Finished generating code
+         Experimental_SFML.vcxproj -> E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Release\Experimental_SFML.exe
+     1>Done Building Project "E:\Users\HI\Documents\Visual Studio 2013\Projects\Experimental_SFML\Experimental_SFML.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:03.90

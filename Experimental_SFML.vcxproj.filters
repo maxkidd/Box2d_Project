@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Components">
+      <UniqueIdentifier>{35c9e12b-28ad-4c21-b885-89d402c25742}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Components">
+      <UniqueIdentifier>{781bc311-4001-44d1-86b9-b1bf49870b1e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Entity">
+      <UniqueIdentifier>{7ac54086-5215-4212-be7b-4c66bf365706}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Entity">
+      <UniqueIdentifier>{cfdc31f8-edb7-4ff0-b59b-fc34e9ac1a0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Scenes">
+      <UniqueIdentifier>{7883cafb-bd71-4b71-9aaa-1c443b88de5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Scenes">
+      <UniqueIdentifier>{965fdfc3-ce11-4868-b7c4-2c683553b10d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Manager">
+      <UniqueIdentifier>{6045d53c-f8ce-4f2c-a782-a4842aaba5e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Manager">
+      <UniqueIdentifier>{19280509-461a-47c8-b32c-8ef8f09c0283}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="box2d">
+      <UniqueIdentifier>{84aae81b-b0d4-4c91-96d4-3a41b92bd53e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Prefabs">
+      <UniqueIdentifier>{adb6d637-09f1-4183-a21d-ef16397046c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Prefabs">
+      <UniqueIdentifier>{8ccb5ab5-6137-45cd-a3c8-53d6acac6084}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Input.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TransformComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Source Files\Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="EntityManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="PolygonComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GraphicsManager.cpp">
+      <Filter>Source Files\Manager</Filter>
+    </ClCompile>
+    <ClCompile Include="IComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="B2Components.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene1.cpp">
+      <Filter>Source Files\Scenes</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2BroadPhase.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2CollideCircle.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2CollideEdge.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2CollidePolygon.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2Collision.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2Distance.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2DynamicTree.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\b2TimeOfImpact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\Shapes\b2ChainShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\Shapes\b2CircleShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\Shapes\b2EdgeShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Collision\Shapes\b2PolygonShape.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2BlockAllocator.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2Draw.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2Math.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2Settings.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2StackAllocator.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Common\b2Timer.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2Body.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2ContactManager.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2Fixture.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2Island.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2World.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\b2WorldCallbacks.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ChainAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2CircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2Contact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2ContactSolver.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Contacts\b2PolygonContact.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2DistanceJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2FrictionJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2GearJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2Joint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2MotorJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2MouseJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2PrismaticJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2PulleyJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2RevoluteJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2RopeJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2WeldJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Dynamics\Joints\b2WheelJoint.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="Box2D\Rope\b2Rope.cpp">
+      <Filter>box2d</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerPref.cpp">
+      <Filter>Source Files\Prefabs</Filter>
+    </ClCompile>
+    <ClCompile Include="CameraComponent.cpp">
+      <Filter>Source Files\Components</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Input.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="TransformComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Header Files\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="EntityManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="PolygonComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GraphicsManager.h">
+      <Filter>Header Files\Manager</Filter>
+    </ClInclude>
+    <ClInclude Include="B2Component.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene1.h">
+      <Filter>Header Files\Scenes</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Box2D.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\b2BroadPhase.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\b2Collision.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\b2Distance.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\b2DynamicTree.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\b2TimeOfImpact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\Shapes\b2ChainShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\Shapes\b2CircleShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\Shapes\b2EdgeShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\Shapes\b2PolygonShape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Collision\Shapes\b2Shape.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2BlockAllocator.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2Draw.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2GrowableStack.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2Math.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2Settings.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2StackAllocator.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Common\b2Timer.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2Body.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2ContactManager.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2Fixture.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2Island.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2TimeStep.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2World.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\b2WorldCallbacks.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ChainAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ChainAndPolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2CircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2Contact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2ContactSolver.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2EdgeAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2EdgeAndPolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2PolygonAndCircleContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Contacts\b2PolygonContact.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2DistanceJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2FrictionJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2GearJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2Joint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2MotorJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2MouseJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2PrismaticJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2PulleyJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2RevoluteJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2RopeJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2WeldJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Dynamics\Joints\b2WheelJoint.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="Box2D\Rope\b2Rope.h">
+      <Filter>box2d</Filter>
+    </ClInclude>
+    <ClInclude Include="CameraComponent.h">
+      <Filter>Header Files\Components</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerPref.h">
+      <Filter>Header Files\Prefabs</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Experimental_SFML.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
